@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DraTeck</title>
+  <style>
+    body{
+    background-image:  linear-gradient(#1a0000, #4d0000, #990000);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    }
+    main{
+      max-width: 1200px;
+      margin: auto;
+    }
+    .header-div{
+      display: flex;
+      justify-content: space-between;
+      background-color: transparent;
+    }
+    
+    .logo-div{
+      margin-left: 50px;
+    
+    }
+.logo{
+  border-radius: 50%;
+}
+  
+    ul{
+      display: flex;
+      gap: 30px;
+      text-decoration: none;
+      list-style-type: none;
+     margin-right: 50px;
+     color: white;
+
+    }
+    li{
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    li:hover{
+      cursor: pointer;
+      text-decoration: underline;
+      filter: drop-shadow(0 0 5px white);
+      }
+
+      h2{
+        font-family: 'Teko', sans-serif;
+        color: #ffffff; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  font-size: 48px;
+  filter: drop-shadow(0 0 8px white);
+  cursor: pointer;
+
+}
+h2:hover{
+  filter: drop-shadow(0 0 30px #e25822 );
+}
+
+p{
+    font-size: 16px; 
+  color: #f0f0f0;
+  line-height: 30.8px; 
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 8px white );
+
+}
+h5 {
+  color: #ffcccc; 
+  font-family: 'Teko', sans-serif;
+  font-weight: 600;
+font-size: 24px;
+}
+.about-section{
+ padding: 10px 20px;
+ display: flex;
+ 
+}
+.one-three{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.four-six{
+   display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 30px;
+}
+.web-development{
+ background: linear-gradient(145deg , #ffffff41 , #f0f0f028);
+ border-radius: 30px;
+ padding: 25px;
+animation: float 3s ease-in-out infinite;
+ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+ color: black;
+ position: relative;
+  transition: all 0.3s ease;
+
+
+
+}
+.web-development::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #e25822 ; 
+  transition: width 0.3s ease;
+  overflow: hidden;
+  border-radius: 0 0 30px 0;
+
+}
+
+  .web-development:hover::after {
+  width: 50%;
+ 
+  overflow: hidden;
+  }
+
+@keyframes float {
+  0%, 100% { 
+    transform: translateY(0px); 
+  }
+  50% { 
+    transform: translateY(-15px); 
+  }
+}
+#bg-video {
+  position: fixed ;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.3);
+}
+h4{
+   color: #ffcccc; 
+  font-family: 'Teko', sans-serif;
+  font-weight: 600;
+font-size: 24px;
+text-align: center;
+}
+
+  </style>
+</head>
+<body>
+  <video autoplay muted loop playsinline id="bg-video">
+  <source src="DRaTeck.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+  <header>
+    <div class="header-div">
+    <div class="logo-div">
+    <img src="Drateck pp.webp" alt="Drateck Logo" width="120px" class="logo">
+    </div>
+    <div class="nav-div">
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Project</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    </div>
+    </div>
+  </header>
+  <main>
+    <div class="about-div">
+  <h2>
+    About Me 
+  </h2>
+</div>
+    <div class="about-section">
+
+
+<div class="intro-div">
+  <p>
+I'm  Sachit Regmi, the founder of DraTeck — a name inspired by the legendary strength, loyalty, and unstoppable power of the dragon.<br>
+
+Like the dragon that masters multiple elements, I’ve built my expertise across the full digital spectrum. What started as a passion for digital marketing has evolved into comprehensive digital mastery, allowing me to see how marketing, strategy, technology, and development intersect to create true digital dominance.
+  </p>
+  <h5>
+My Journey
+  </h5>
+<p>
+  I began in digital marketing, mastering the art of reaching, engaging, and converting audiences through strategic campaigns, precision SEO, persuasive copywriting, and targeted advertising. But as I worked with businesses, I quickly recognized a common problem: even the best marketing efforts fall flat when they drive traffic to underperforming websites.<br>
+
+This realization drove me to master web development — creating not just visually stunning websites, but highly functional, conversion-focused digital platforms. Now, I'm expanding my arsenal even further, actively mastering full-stack development with Python, preparing to offer end-to-end custom web applications that deliver both power and scalability.
+</p>
+<h5>
+  The DraTeck Philosophy
+</h5>
+<p>
+  Every project I take on reflects the core values of the dragon:<br>
+
+🐉 Precision — Flawless execution in both design and functionality<br>
+
+🐉 Strength — High-performance solutions built to deliver real results<br>
+
+🐉 Loyalty — Long-term partnerships focused on client growth and success<br>
+
+I believe true success comes from a unified, full-spectrum approach where all digital elements work together in perfect balance.
+
+
+</p>
+<h5>
+  Why DraTeck Exists
+</h5>
+<p>
+
+I founded DraTeck after seeing too many businesses struggle with fragmented digital strategies — brilliant marketing campaigns leading to weak websites, or beautiful sites generating zero traffic. My rare combination of skills allows me to bridge this gap — seamlessly integrating marketing strategy, design, development, and now full-stack engineering to create fully aligned, high-converting digital ecosystems.<br>
+
+When you work with DraTeck, you're not hiring a vendor — you're partnering with a strategist who understands the full journey:<br>
+from attraction &rarr; to engagement &rarr; to conversion &rarr; to long-term growth.
+</p>
+
+</div>
+<div>
+  <img src="Drateck pp.ebp" alt="model place">
+</div>
+
+</div>
+<div class="service">
+  <h2>
+Services
+  </h2>
+</div>
+<div class="service-section">
+  <p>
+<p>Our services are designed to bring your ideas to life — fast, reliable, and results-driven.</p>
+
+  </p>
+</div>
+<div class="one-three">
+  <div class="web-development">
+<h4>
+ Web Development
+
+</h4>
+<p>
+  &#x2022; Custom, modern, high-performance websites</p>
+  <p>&#x2022; Responsive design for all devices</p>
+ <p> &#x2022; Clean, efficient code for long-term scalability</p>
+  <p> &#x2022; Performance optimization for speed & SEO</p>
+
+
+
+</div>
+ <div class="web-development">
+<h4>
+ Digital Marketing
+
+</h4>
+<p>
+  &#x2022; Complete marketing strategies tailored to your business</p>
+  <p>&#x2022; Audience targeting, engagement, and lead generation</p>
+ <p> &#x2022; Funnels that turn visitors into loyal customers</p>
+</div>
+
+
+ <div class="web-development">
+<h4>
+ SEO Optimization
+
+</h4>
+<p>
+  &#x2022; Keyword research and on-page optimization</p>
+  <p>&#x2022; Technical SEO improvements</p>
+ <p> &#x2022; Content strategy for organic growth</p>
+  <p> &#x2022; Rank higher in Google, attract ready-to-buy traffic</p>
+
+
+
+</div>
+
+</div>
+<div class="four-six">
+
+    <div class="web-development">
+<h4>
+Paid Advertising
+
+</h4>
+<p>
+  &#x2022; Google Ads Campaign Management</p>
+  <p>&#x2022; Responsive design for all devices</p>
+ <p> &#x2022; Retargeting, audience segmentation, and budget optimization</p>
+  <p> &#x2022; Retargeting, audience segmentation, and budget optimization</p>
+
+
+
+</div>
+ <div class="web-development">
+<h4>
+ Copywriting
+
+</h4>
+<p>
+  &#x2022; Sales-driven content for websites, ads, and emails</p>
+  <p>&#x2022; Persuasive, brand-consistent messaging</p>
+ <p> &#x2022; Clear calls to action that drive conversions</p>
+</div>
+
+
+ <div class="web-development">
+<h4>
+ In Progress 🚀
+</h4>
+<p>
+  &#x2022; Building advanced web applications (Python Full-Stack)</p>
+  <p>&#x2022; Future-ready custom software solutions</p>
+ <p> &#x2022; Data-driven, scalable backend systems combined with beautiful frontend experiences</p>
+  
+
+
+
+</div>
+
+
+
+</div>
+
+
+  </main>
+</body>
+</html>
